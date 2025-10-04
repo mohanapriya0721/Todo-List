@@ -62,7 +62,7 @@ const Todo = () => {
                 <div className='flex-1'>
                     <input ref={inputRef} type="text" className="bg-white p-2 rounded-3xl w-full focus:outline-none " placeholder='Add Your Task'/>
                 </div>
-                <button className=' text-white bg-amber-500 p-2  border-none  rounded-3xl hover:bg-amber-600' onClick={addTask} >Add Task</button>
+                <button className=' text-white bg-amber-500 p-2  border-none  rounded-3xl hover:bg-amber-600' onClick={addTask} >Add Tasks</button>
             </div>
             <p className="my-3 text-sm text-zinc-300 px-1">
               Fill Task Details
